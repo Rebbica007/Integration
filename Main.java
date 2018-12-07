@@ -430,6 +430,8 @@ public class Main {
     
     int plusEqualsInt3 = plusEqualsInt1 += plusEqualsInt2;
     
+    System.out.println(plusEqualsInt1);
+    
     System.out.println("Int 1 += Int 2 is " + plusEqualsInt3);
     
     /* above system uses the += operator which adds two numbers or things together*/
@@ -447,6 +449,10 @@ public class Main {
     Bicycle myBike = new Bicycle(5,8,3);
     
     System.out.println(myBike);
+    
+    Bicycle sistersBike = new MountainBike(6, 9, 5, 3);
+    
+    System.out.println(sistersBike);
 
     /* Inheritance is used when you want to make sub classes
      * of a big class. For example, we have Bicycle and 

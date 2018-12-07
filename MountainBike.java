@@ -16,7 +16,17 @@ public class MountainBike extends Bicycle {
         
   // the MountainBike subclass has
   // one method
-  public void setHeight(int newValue) {
-    seatHeight = newValue;
+  public void setHeight(int height) {
+    seatHeight = height;
+  }
+  
+  public String toString() {
+    
+    return ("Seat Height: " + this.seatHeight());
+  }
+
+  private int seatHeight() {
+    // TODO Auto-generated method stub
+    return seatHeight;
   }
 }
